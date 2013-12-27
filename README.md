@@ -1,4 +1,4 @@
 OOPHPLoginSystem
 ================
 
-OOP PHP Login and register system. 
+OOPHP Login and registration system, created from the PHPAcademy OOP Tutorial.
