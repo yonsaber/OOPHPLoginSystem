@@ -17,7 +17,7 @@
 					'required' 	=> true,
 					'min'		=> 6
 				),
-				'password_again' => array(
+				'passwordAgain' => array(
 					'fieldName'	=> 'Password Repeat',
 					'required' 	=> true,
 					'min'		=> 6,
@@ -68,7 +68,7 @@
 	</div>
 	<div class="field">
 		<label for="password_again">Enter your password again</label>
-		<input type="password" name="password_again" id="password_again"/>
+		<input type="password" name="passwordAgain" id="passwordAgain"/>
 	</div>
 	<div class="field">
 		<label for="name">Name</label>
