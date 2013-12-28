@@ -12,7 +12,8 @@
 			'cookieExpiry'	=> 604800,	//1 Week
 		),
 		'session'	=> array(
-			'sessionName'	=> 'user'
+			'sessionName'	=> 'user',
+			'tokenName'		=> 'token'
 		)
 	);
 	
