@@ -13,12 +13,12 @@
 
 			if (!$user) {
 				if (Session::exists($this->_sessionName)) {
-					$user =  Session::get($this->_sessionName);
+					$user = Session::get($this->_sessionName);
 
 					if ($this->find($user)) {
 						$this->_isLoggedIn = true;
 					} else {
-						//logout
+						self::logout();
 					}
 				}
 			} else {
